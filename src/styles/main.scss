@@ -27,6 +27,10 @@ h1 {
     letter-spacing: 2px;
 }
 
+::selection {
+    background-color: hsl(162, 87%, 35%);
+}
+
 .full-center {
     display: grid;
     place-items: center;
